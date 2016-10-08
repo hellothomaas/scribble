@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Simplon';
+  src: url("../fonts/swisstypefaces-simplon-webfont-light/S/SimplonNorm-Light-WebS.eot#") format("eot"), url("../fonts/swisstypefaces-simplon-webfont-light/S/SimplonNorm-Light-WebS.woff") format("woff"), url("../fonts/swisstypefaces-simplon-webfont-light/S/SimplonNorm-Light-WebS.ttf") format("truetype"), url("../fonts/swisstypefaces-simplon-webfont-light/S/SimplonNorm-Light-WebS.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: 'Simplon';
+  src: url("../fonts/swisstypefaces-simplon-webfont-bold/S/SimplonNorm-Bold-WebS.eot#") format("eot"), url("../fonts/swisstypefaces-simplon-webfont-bold/S/SimplonNorm-Bold-WebS.woff") format("woff"), url("../fonts/swisstypefaces-simplon-webfont-bold/S/SimplonNorm-Bold-WebS.ttf") format("truetype"), url("../fonts/swisstypefaces-simplon-webfont-bold/S/SimplonNorm-Bold-WebS.svg#svgFontName") format("svg");
+  font-weight: bold; }
+
 h1, h2, h3, h4, h5, strong, b {
   font-weight: 600; }
 
@@ -7,7 +16,7 @@ html, body {
 body {
   background: #f9f9f9;
   color: #303030;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Simplon', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 19px;
@@ -80,7 +89,7 @@ header {
 
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
@@ -94,7 +103,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -248,7 +257,7 @@ section.post {
     margin-left: 20px;
     padding: 0; }
   section.post h1 {
-    text-transform: uppercase;
+
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
@@ -357,6 +366,6 @@ img {
   left: 50%;
   font-size: 60px; }
 .paging .left {
-  margin-left: -340px; }
+  margin-left: -440px; }
 .paging .right {
-  margin-left: 320px; }
+  margin-left: 420px; }

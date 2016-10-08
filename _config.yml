@@ -1,19 +1,31 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url, without a slash at the end.
-signoff:          # Your name.
+title:            PCI Proxy - Blog
+description:      PCI DSS Level 1 compliant since 2006.
+url:              http://localhost:4000 # Site url, without a slash at the end.
+signoff:          Thomas # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name:         About
-    url:          /about
   - name:         Blog
-    url:          http://muan.co
+    url:          /
+  - name:         Home
+    url:          https://www.pci-proxy.com/
     external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
+  - name:         Features
+    url:          https://www.pci-proxy.com/#/features
+    external:     true
+  - name:         Our Promise
+    url:          https://www.pci-proxy.com/#/security
+    external:     true
+  - name:         How it works
+    url:          https://www.pci-proxy.com/#/how
+    external:     true
+  - name:         Try it!
+    url:          https://www.pci-proxy.com/#/signup
+    external:     true
+  - name:         Docs
+    url:          https://www.pci-proxy.com/#/docs
     external:     true
 highlighter:      pygments
 permalink:        pretty
