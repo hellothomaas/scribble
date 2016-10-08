@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PCI Proxy - Blog</title>
+    <description>PCI DSS Level 1 compliant since 2006.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Show PCI Compliance to Booking.com</title>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;As an XML partner of Booking.com you can receive reservation data directly via API. Booking.com allows you to choose if you want to receive credit card data in their reservation requests or leave them in Booking.com extranet.  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;There is no clever design philosophy to talk about, I tried to find something to work with, and &amp;lsquo;scribble&amp;rsquo; came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS &amp;amp; CoffeeScript, though .scss &amp;amp; .coffee files wouldn&amp;rsquo;t be included in the theme.&lt;/p&gt;
+
+&lt;p&gt;The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Get started&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/muan/scribble/fork&quot;&gt;Fork the repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone the repository to your computer.&lt;br /&gt; &lt;code&gt;git clone https://github.com/username/scribble&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If using older versions of Jekyll&lt;/strong&gt;&lt;br /&gt;
+Build and run jekyll using &lt;code&gt;jekyll --server --auto&lt;/code&gt;.&lt;br /&gt;
+&lt;strong&gt;If using &lt;a href=&quot;http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/&quot;&gt;Jekyll 1.0&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Build Jekyll using &lt;code&gt;jekyll build&lt;/code&gt;.&lt;br /&gt;
+Then run Jekyll using &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Go to http://localhost:4000 for your site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Make it yours&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I have extract most user specific information to &lt;code&gt;_config.yml&lt;/code&gt;, you should be able to set up almost everything from it.&lt;/li&gt;
+&lt;li&gt;Change about.md for blog intro.&lt;/li&gt;
+&lt;li&gt;For domain settings, see &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-pages&quot;&gt;the guide from GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Options&lt;/h3&gt;
+
+&lt;p&gt;When writing a post, there are 3 options you can add to the header.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;disqus: y&lt;/strong&gt;&lt;br /&gt;
+If disqus is set to &amp;#39;y&amp;rsquo;, at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST &lt;a href=&quot;http://disqus.com/&quot;&gt;set up your own disqus account&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;share: y&lt;/strong&gt;&lt;br /&gt;
+An option for showing tweet and like button under a post.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;date&lt;/strong&gt;: 2013-05-06 18:07:17&lt;br /&gt;
+Date is not a required header since Jekyll reads the file name for date, this was added in only for the &lt;strong&gt;signoff time&lt;/strong&gt;. (as shown at the end of this post) If you don&amp;rsquo;t want the signoff time, go into &lt;code&gt;/includes/signoff.html&lt;/code&gt; and remove the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;The end&lt;/h3&gt;
+
+&lt;p&gt;Like it? &lt;a href=&quot;http://twitter.com/muanchiou&quot;&gt;Tell me&lt;/a&gt;.&lt;br/&gt;
+Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub Issues&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 08 Oct 2016 18:27:31 +0200</pubDate>
+        <link>http://localhost:4000/2016/10/08/show-pci-compliance-to-booking-com/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/08/show-pci-compliance-to-booking-com/</guid>
+      </item>
+    
+      <item>
+        <title>Geting rid of invalid credit cards</title>
+        <description>&lt;p&gt;I have other themes, checkout (mainly) &lt;a href=&quot;https://github.com/muan/muan.github.com/releases&quot;&gt;this repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/muan/jekyll-wardrobe&quot;&gt;this repository&lt;/a&gt;. &amp;lt;3&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;There is no clever design philosophy to talk about, I tried to find something to work with, and &amp;lsquo;scribble&amp;rsquo; came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS &amp;amp; CoffeeScript, though .scss &amp;amp; .coffee files wouldn&amp;rsquo;t be included in the theme.&lt;/p&gt;
+
+&lt;p&gt;The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Get started&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/muan/scribble/fork&quot;&gt;Fork the repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone the repository to your computer.&lt;br /&gt; &lt;code&gt;git clone https://github.com/username/scribble&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If using older versions of Jekyll&lt;/strong&gt;&lt;br /&gt;
+Build and run jekyll using &lt;code&gt;jekyll --server --auto&lt;/code&gt;.&lt;br /&gt;
+&lt;strong&gt;If using &lt;a href=&quot;http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/&quot;&gt;Jekyll 1.0&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Build Jekyll using &lt;code&gt;jekyll build&lt;/code&gt;.&lt;br /&gt;
+Then run Jekyll using &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Go to http://localhost:4000 for your site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Make it yours&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I have extract most user specific information to &lt;code&gt;_config.yml&lt;/code&gt;, you should be able to set up almost everything from it.&lt;/li&gt;
+&lt;li&gt;Change about.md for blog intro.&lt;/li&gt;
+&lt;li&gt;For domain settings, see &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-pages&quot;&gt;the guide from GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Options&lt;/h3&gt;
+
+&lt;p&gt;When writing a post, there are 3 options you can add to the header.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;disqus: y&lt;/strong&gt;&lt;br /&gt;
+If disqus is set to &amp;#39;y&amp;rsquo;, at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST &lt;a href=&quot;http://disqus.com/&quot;&gt;set up your own disqus account&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;share: y&lt;/strong&gt;&lt;br /&gt;
+An option for showing tweet and like button under a post.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;date&lt;/strong&gt;: 2013-05-06 18:07:17&lt;br /&gt;
+Date is not a required header since Jekyll reads the file name for date, this was added in only for the &lt;strong&gt;signoff time&lt;/strong&gt;. (as shown at the end of this post) If you don&amp;rsquo;t want the signoff time, go into &lt;code&gt;/includes/signoff.html&lt;/code&gt; and remove the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;The end&lt;/h3&gt;
+
+&lt;p&gt;Like it? &lt;a href=&quot;http://twitter.com/muanchiou&quot;&gt;Tell me&lt;/a&gt;.&lt;br/&gt;
+Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub Issues&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 May 2016 18:27:31 +0200</pubDate>
+        <link>http://localhost:4000/2016/05/06/get-rid-of-invalid-credit-cards/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/06/get-rid-of-invalid-credit-cards/</guid>
+      </item>
+    
+      <item>
+        <title>Seamless credit card collection</title>
+        <description>&lt;p&gt;I have other themes, checkout (mainly) &lt;a href=&quot;https://github.com/muan/muan.github.com/releases&quot;&gt;this repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/muan/jekyll-wardrobe&quot;&gt;this repository&lt;/a&gt;. &amp;lt;3&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;There is no clever design philosophy to talk about, I tried to find something to work with, and &amp;lsquo;scribble&amp;rsquo; came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS &amp;amp; CoffeeScript, though .scss &amp;amp; .coffee files wouldn&amp;rsquo;t be included in the theme.&lt;/p&gt;
+
+&lt;p&gt;The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Get started&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/muan/scribble/fork&quot;&gt;Fork the repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone the repository to your computer.&lt;br /&gt; &lt;code&gt;git clone https://github.com/username/scribble&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If using older versions of Jekyll&lt;/strong&gt;&lt;br /&gt;
+Build and run jekyll using &lt;code&gt;jekyll --server --auto&lt;/code&gt;.&lt;br /&gt;
+&lt;strong&gt;If using &lt;a href=&quot;http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/&quot;&gt;Jekyll 1.0&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Build Jekyll using &lt;code&gt;jekyll build&lt;/code&gt;.&lt;br /&gt;
+Then run Jekyll using &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Go to http://localhost:4000 for your site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Make it yours&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I have extract most user specific information to &lt;code&gt;_config.yml&lt;/code&gt;, you should be able to set up almost everything from it.&lt;/li&gt;
+&lt;li&gt;Change about.md for blog intro.&lt;/li&gt;
+&lt;li&gt;For domain settings, see &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-pages&quot;&gt;the guide from GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Options&lt;/h3&gt;
+
+&lt;p&gt;When writing a post, there are 3 options you can add to the header.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;disqus: y&lt;/strong&gt;&lt;br /&gt;
+If disqus is set to &amp;#39;y&amp;rsquo;, at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST &lt;a href=&quot;http://disqus.com/&quot;&gt;set up your own disqus account&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;share: y&lt;/strong&gt;&lt;br /&gt;
+An option for showing tweet and like button under a post.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;date&lt;/strong&gt;: 2013-05-06 18:07:17&lt;br /&gt;
+Date is not a required header since Jekyll reads the file name for date, this was added in only for the &lt;strong&gt;signoff time&lt;/strong&gt;. (as shown at the end of this post) If you don&amp;rsquo;t want the signoff time, go into &lt;code&gt;/includes/signoff.html&lt;/code&gt; and remove the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;The end&lt;/h3&gt;
+
+&lt;p&gt;Like it? &lt;a href=&quot;http://twitter.com/muanchiou&quot;&gt;Tell me&lt;/a&gt;.&lt;br/&gt;
+Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub Issues&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 18:27:31 +0200</pubDate>
+        <link>http://localhost:4000/2016/04/06/seamless-credit-card-collection/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/04/06/seamless-credit-card-collection/</guid>
+      </item>
+    
+      <item>
+        <title>Scribble, a Jekyll theme</title>
+        <description>&lt;p&gt;I have other themes, checkout (mainly) &lt;a href=&quot;https://github.com/muan/muan.github.com/releases&quot;&gt;this repository&lt;/a&gt; and &lt;a href=&quot;https://github.com/muan/jekyll-wardrobe&quot;&gt;this repository&lt;/a&gt;. &amp;lt;3&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;There is no clever design philosophy to talk about, I tried to find something to work with, and &amp;lsquo;scribble&amp;rsquo; came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS &amp;amp; CoffeeScript, though .scss &amp;amp; .coffee files wouldn&amp;rsquo;t be included in the theme. &lt;/p&gt;
+
+&lt;p&gt;The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Get started&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/muan/scribble/fork&quot;&gt;Fork the repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone the repository to your computer.&lt;br /&gt; &lt;code&gt;git clone https://github.com/username/scribble&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If using older versions of Jekyll&lt;/strong&gt;&lt;br /&gt;
+Build and run jekyll using &lt;code&gt;jekyll --server --auto&lt;/code&gt;.&lt;br /&gt;
+&lt;strong&gt;If using &lt;a href=&quot;http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/&quot;&gt;Jekyll 1.0&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Build Jekyll using &lt;code&gt;jekyll build&lt;/code&gt;.&lt;br /&gt;
+Then run Jekyll using &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Go to http://localhost:4000 for your site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Make it yours&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I have extract most user specific information to &lt;code&gt;_config.yml&lt;/code&gt;, you should be able to set up almost everything from it.&lt;/li&gt;
+&lt;li&gt;Change about.md for blog intro.&lt;/li&gt;
+&lt;li&gt;For domain settings, see &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-pages&quot;&gt;the guide from GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Options&lt;/h3&gt;
+
+&lt;p&gt;When writing a post, there are 3 options you can add to the header.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;disqus: y&lt;/strong&gt;&lt;br /&gt;
+If disqus is set to &amp;#39;y&amp;rsquo;, at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST &lt;a href=&quot;http://disqus.com/&quot;&gt;set up your own disqus account&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;share: y&lt;/strong&gt;&lt;br /&gt;
+An option for showing tweet and like button under a post.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;date&lt;/strong&gt;: 2013-05-06 18:07:17&lt;br /&gt;
+Date is not a required header since Jekyll reads the file name for date, this was added in only for the &lt;strong&gt;signoff time&lt;/strong&gt;. (as shown at the end of this post) If you don&amp;rsquo;t want the signoff time, go into &lt;code&gt;/includes/signoff.html&lt;/code&gt; and remove the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;The end&lt;/h3&gt;
+
+&lt;p&gt;Like it? &lt;a href=&quot;http://twitter.com/muanchiou&quot;&gt;Tell me&lt;/a&gt;.&lt;br/&gt;
+Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub Issues&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 May 2013 18:27:31 +0200</pubDate>
+        <link>http://localhost:4000/scribble/2013/05/06/scribble-the-jekyll-theme/</link>
+        <guid isPermaLink="true">http://localhost:4000/scribble/2013/05/06/scribble-the-jekyll-theme/</guid>
+      </item>
+    
+      <item>
+        <title>Placeholder post</title>
+        <description>&lt;p&gt;I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Boom. I am a blockquote.&lt;/p&gt;
+
+&lt;p&gt;Say something really clever here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;List with code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;  not highlighted
+  multi line
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;List with code
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;boom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;whaaa&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;I have a friend called Bobobmob.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 06 May 2013 17:27:31 +0200</pubDate>
+        <link>http://localhost:4000/scribble/2013/05/06/more-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/scribble/2013/05/06/more-post/</guid>
+      </item>
+    
+      <item>
+        <title>Case Study - Middle Office</title>
+        <description>&lt;h2&gt;Middle Office&lt;/h2&gt;
+
+&lt;p&gt;You are a middle office that receives booking information on behalf of your clients.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Travel agencies use your software to drop new bookings. At some point, they will enter the customers’ payment data in your software. In order to minimize your PCI scope, this payment data should be added without touching your server.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We support different approaches how you can securely collect the customers´ credit card details. Start with a simple HTML &lt;code&gt;&amp;lt;a href&amp;gt;&lt;/code&gt; tag:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pilot.datatrans.biz/upp/jsp/upStart.jsp?merchantId=1100004624&amp;refno=pci-proxy-redirect&amp;amount=1&amp;currency=CHF&amp;theme=DT2015&amp;uppAliasOnly=yes&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Collect Credit Card&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;https://pilot.datatrans.biz/upp/jsp/upStart.jsp&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;            ?merchantId=1100004624&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;            &amp;amp;refno=pci-proxy-redirect&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;            &amp;amp;amount=1&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;            &amp;amp;currency=CHF&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;            &amp;amp;theme=DT2015&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;            &amp;amp;uppAliasOnly=yes&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Collect payment data&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;PCI Proxy supports a varienty of &lt;a href=&quot;collect_payment_data.html&quot;&gt;different approaches for you to collect the payment data&lt;/a&gt;. Your server will never get in touch with sensitive card data which reduces your PCI scope immediately.&lt;/p&gt;
+
+&lt;p&gt;The most common approach is to submit data directly from your software using our &lt;a href=&quot;website-application.html&quot;&gt;payment pages&lt;/a&gt;. Another option is &lt;a href=&quot;https://www.datatrans.ch/en/offer/special-solutions/pay-by-e-mail&quot;&gt;pay-by-email&lt;/a&gt; where temporary payment links are issued that can be emailed to customers to let them enter their payment details by themselves.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;https://pilot.datatrans.biz/upp/jsp/upStart.jsp&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;             ?merchantId=1100004624&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;             &amp;amp;refno=pci-proxy-redirect&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;             &amp;amp;amount=1&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;             &amp;amp;currency=CHF&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;             &amp;amp;theme=DT2015&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;             &amp;amp;uppAliasOnly=yes&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Collect&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;payment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;On behalf of your clients you want to process the booking or transact with different endpoints (e.g. Expedia, Stripe, TUI, Lufthansa, etc.).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;PCI Proxy allows you to &lt;a href=&quot;forward.html&quot;&gt;forward vaulted payment data&lt;/a&gt; to PCI compliant third parties.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;List with code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;  not highlighted
+  multi line
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;List with code
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;dom&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;boom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;dom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;https://pilot.datatrans.biz/upp/jsp/upStart.jsp&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;            ?merchantId=1100004624&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;            &amp;amp;refno=pci-proxy-redirect&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;            &amp;amp;amount=1&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;            &amp;amp;currency=CHF&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;            &amp;amp;theme=DT2015&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;            &amp;amp;uppAliasOnly=yes&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Collect&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;payment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 06 May 2013 17:27:31 +0200</pubDate>
+        <link>http://localhost:4000/2013/05/06/Case%20Study%20-%20Middle%20Office/</link>
+        <guid isPermaLink="true">http://localhost:4000/2013/05/06/Case%20Study%20-%20Middle%20Office/</guid>
+      </item>
+    
+  </channel>
+</rss>
